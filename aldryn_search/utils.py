@@ -13,7 +13,7 @@ import six
 from haystack import DEFAULT_ALIAS
 from haystack.indexes import SearchIndex
 from lxml.etree import ParseError, ParserError
-from lxml.html.clean import Cleaner as LxmlCleaner
+from lxml_html_clean import Cleaner as LxmlCleaner
 
 from .conf import settings
 
